@@ -1,5 +1,6 @@
 ---
 templateKey: about-page
+path: /about
 title: About Us
 ---
 Independent Living Housing, Inc. (ILH) is a 501(c)(3) nonprofit organization established for the charitable purpose of providing life skills and educational services to developmentally challenged youth and those youth and young adults in metro Detroit who are lagging behind in their classes. ILHI has been in existence since 1998 and has positively impacted the lives of many of youth and young adults. ILH responded to an unmet need by the School district and the community at large.
