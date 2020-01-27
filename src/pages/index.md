@@ -1,16 +1,18 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
-image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+title: 'Independent Living Housing, Inc.'
+image: /img/building.png
+heading: 'Independent Living Housing, Inc.'
+subheading: Changing Lives from Dependence to Independence
 mainpitch:
   title: Why Kaldi
-  description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+  description: >-
+    Independent Living Housing (ILH), Inc. is a non-profit organization founded
+    with the purpose of educating children, teens, young adults, and adults with
+    learning disabilities. Through in-school workshops, intervention/prevention
+    programs, shelters and specialized housing, ILH's offerings have assisted
+    thousands of students by developing the skills necessary to function as a
+    member of society.
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,
@@ -68,3 +70,4 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 ---
+
