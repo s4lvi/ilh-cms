@@ -15,7 +15,9 @@ mainpitch:
     member of society.
 description: test
 intro:
-  blurbs: []
+  blurbs:
+    - image: /img/products-grid2.jpg
+      text: test
   heading: Our History
   description: >-
     ILH was founded in 1998 by Ruth Shortie. She has been inspired by personal
