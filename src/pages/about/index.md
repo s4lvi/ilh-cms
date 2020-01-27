@@ -1,19 +1,26 @@
 ---
-templateKey: 'about-page'
-path: /about
-title: About our values
+templateKey: about-page
+title: About Us
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+Independent Living Housing, Inc. (ILH) is a 501(c)(3) nonprofit organization established for the charitable purpose of providing life skills and educational services to developmentally challenged youth and those youth and young adults in metro Detroit who are lagging behind in their classes. ILHI has been in existence since 1998 and has positively impacted the lives of many of youth and young adults. ILH responded to an unmet need by the School district and the community at large.
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+## OUR MISSION
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+The mission of Independent Living Housing, Inc. is to provide independent living programs for youth and young adults who have learning disabilities and who are socially as well as economically disadvantaged, group homes and safe, decent and affordable housing.\
+.
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+## OUR VISION
 
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+ILH's vision is to create an environment where the learning disabled can reach their maximum potential and become productive citizens.
+
+## OUR PROGRAM
+
+ILH developed the "Today's Youth" program to enhance the self-esteem and teach life skills to children and young adults who are learning-disabled and developmentally challenged. Youth with learning disabilities can lead enriched lives when they are in an environment that builds their self-confidence, leadership and other life skills. The self-esteem workshops and after-school tutorials are designed to help youth build positive self-esteem; identify emotional spirals; understand and apply effective conflict resolution; improve their proficiency in reading, writing, math, science, computer and study skills; and prepare them for reading and MEAP testing.
+
+## TARGET POPULATION
+
+Learning disabled and other at-risks youth and young adults ages 3-26 who are assigned to the Specialized Student Services Departments at Winship Elementary/Middle, Cervency Middle, Post, Barbara Jordan, Central High, Coffee, Cooley High, Rutherford, and Bethune schools; and/or the general public.
+
+## ACCOMPLISHMENTS
+
+Since 2001, ILH has partnered with several Detroit public schools to implement the Today's Youth program. Below is a summary of the activities carried out within the Detroit Public School system.
