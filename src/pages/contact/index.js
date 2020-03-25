@@ -36,10 +36,16 @@ export default class Index extends React.Component {
   render() {
     return (
       <Layout>
-        <section className="section">
+
+        <section className="section section--gradient">
           <div className="container">
-            <div className="content">
-              <h1>Contact</h1>
+            <div className="columns">
+              <div className="column is-10 is-offset-1">
+                <div className="section">
+              
+              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
+                Contact
+              </h2>
               <form
                 name="contact"
                 method="post"
@@ -108,6 +114,8 @@ export default class Index extends React.Component {
               </form>
             </div>
           </div>
+          </div>
+        </div>
         </section>
       </Layout>
     )

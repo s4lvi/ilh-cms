@@ -3,6 +3,14 @@ import { Link } from 'gatsby'
 import github from '../img/github-icon.svg'
 import { withPrefix } from 'gatsby'
 
+const navbarDividerStyle = {
+  width: '100%',
+  position: 'absolute',
+  backgroundColor: 'rgb(255, 68, 0)',
+  height: '10px',
+  top: '50px'
+}
+
 const Navbar = class extends React.Component {
   constructor(props) {
     super(props)
@@ -81,6 +89,8 @@ const Navbar = class extends React.Component {
             </div>
           
           </div>
+        </div>
+        <div style={navbarDividerStyle}>
         </div>
       </nav>
     )
