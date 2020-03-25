@@ -1,8 +1,8 @@
 ---
 templateKey: blog-post
-title: Test News Item
+title: Building Donation Needed
 date: 2020-01-27T06:29:50.616Z
-description: Test content
+description: 
 featuredpost: true
 featuredimage: /img/houses.jpg
 tags:
