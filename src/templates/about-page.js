@@ -5,6 +5,7 @@ import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import MemberContainer from '../components/MemberContainer'
 
+
 export const AboutPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content
 
@@ -12,8 +13,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
     <section className="section section--gradient">
       <div className="container">
         <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <div className="section">
+          <div className="column is-10 is-offset-1" >
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
                 {title}
               </h2>
@@ -23,7 +23,6 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                 Our Members:
               </h2>
               <MemberContainer />
-            </div>
           </div>
         </div>
       </div>

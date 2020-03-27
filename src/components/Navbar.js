@@ -11,6 +11,7 @@ const navbarDividerStyle = {
   top: '50px'
 }
 
+
 const Navbar = class extends React.Component {
   constructor(props) {
     super(props)
