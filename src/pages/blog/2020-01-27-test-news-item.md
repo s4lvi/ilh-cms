@@ -2,9 +2,9 @@
 templateKey: blog-post
 title: Building Donation Needed
 date: 2020-01-27T06:29:50.616Z
-description: 
+description: Attention!
 featuredpost: true
-featuredimage: /img/houses.jpg
+featuredimage: /img/building2.jpeg
 tags:
   - news
 ---
