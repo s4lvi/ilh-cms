@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: 'Independent Living Housing, Inc.'
-image: /img/building.png
+image: /img/building3.jpeg
 heading: 'Independent Living Housing, Inc.'
 subheading: Changing Lives from Dependence to Independence
 mainpitch:
