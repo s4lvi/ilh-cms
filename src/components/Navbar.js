@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import github from '../img/github-icon.svg'
+import facebook from '../img/social/facebook.svg'
 import { withPrefix } from 'gatsby'
 
 const navbarDividerStyle = {
@@ -85,7 +85,11 @@ const Navbar = class extends React.Component {
                 Contact
               </Link>
             </div>
-          
+            <div>
+              <Link className="navbar-brand icon" to="https://www.facebook.com/independentlivinghousinginc">
+                <img src={facebook}></img>
+              </Link>
+            </div>
           </div>
         </div>
         <div style={navbarDividerStyle}>
