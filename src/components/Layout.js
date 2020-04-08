@@ -6,10 +6,13 @@ import './all.sass'
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
 
+const style={
+  height: "100%"
+}
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()
   return (
-    <div>
+    <div style={style}> 
       <Helmet>
         <html lang="en" />
         <title>{title}</title>

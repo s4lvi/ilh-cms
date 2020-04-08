@@ -36,7 +36,6 @@ export default class Index extends React.Component {
   render() {
     return (
       <Layout>
-
         <section className="section section--gradient">
           <div className="container">
             <div className="columns">
@@ -45,6 +44,7 @@ export default class Index extends React.Component {
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
                 Contact
               </h2>
+              <p>Email us at <a href="mailTo:Ilhi4220@independentlivinghousing.org">Ilhi4220@independentlivinghousing.org</a> or send us a message by filling out the form below:</p><br />
               <form
                 name="contact"
                 method="post"
