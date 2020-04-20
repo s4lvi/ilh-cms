@@ -8,6 +8,7 @@ import IndexPagePreview from './preview-templates/IndexPagePreview'
 import DonatePagePreview from './preview-templates/DonatePagePreview'
 import PhotosPagePreview from './preview-templates/PhotosPagePreview'
 import ContactPagePreview from './preview-templates/ContactPagePreview'
+import MemberPagePreview from './preview-templates/MemberPagePreview'
 
 CMS.registerMediaLibrary(uploadcare)
 CMS.registerMediaLibrary(cloudinary)
@@ -18,3 +19,4 @@ CMS.registerPreviewTemplate('blog', BlogPostPreview)
 CMS.registerPreviewTemplate('donate', DonatePagePreview)
 CMS.registerPreviewTemplate('photos', PhotosPagePreview)
 CMS.registerPreviewTemplate('contact', ContactPagePreview)
+CMS.registerPreviewTemplate('member', MemberPagePreview)

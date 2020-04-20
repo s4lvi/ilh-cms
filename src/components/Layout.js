@@ -9,6 +9,7 @@ import { withPrefix } from 'gatsby'
 const style={
   height: "100%"
 }
+
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()
   return (

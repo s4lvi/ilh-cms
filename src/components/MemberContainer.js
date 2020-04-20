@@ -31,6 +31,7 @@ const style = {
     flexDirection: 'column',
     alignItems: 'center'
 }
+
 const MemberContainer = class extends React.Component {
     render() {
         return (

@@ -11,7 +11,7 @@ const style={
   position: "fixed",
   width: "100%",
   bottom: "0",
-  height: "200px"
+  height: "160px"
 }
 
 const Footer = class extends React.Component {
@@ -22,7 +22,7 @@ const Footer = class extends React.Component {
           <img
             src={`${withPrefix('/')}img/ilh1.png`}
             alt="ILH"
-            style={{ width: '10em', height: '10em' }}
+            style={{ width: '8em', height: '8em' }}
           />
         </div>
         <div  className="has-text-centered">

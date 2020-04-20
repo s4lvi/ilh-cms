@@ -64,3 +64,10 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "donate-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/member/index.md"
+        label: "Board Members"
+        name: "member"
+        fields: 
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "member-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}

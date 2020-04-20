@@ -29,7 +29,7 @@ const contentBlock = {
   paddingTop: "30px"
 }
 
-export const AboutPageTemplate = ({ title, content, contentComponent}) => {
+export const MemberPageTemplate = ({ title, content, contentComponent}) => {
   const PageContent = contentComponent || Content
   console.log(content);
   return (
@@ -40,26 +40,8 @@ export const AboutPageTemplate = ({ title, content, contentComponent}) => {
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
                 {title}
               </h2>
-              <div style={contentBlock}>
-                <h2 className="is-size-5 has-text-weight-bold ">About Independent Living Housing</h2><br />
-                {content.description}
-              </div>
-              <div style={contentBlock}>
-                <h2 className="is-size-5 has-text-weight-bold ">Our Mission</h2><br />
-                {content.mission}
-              </div>
-              <div style={disabilityBlurbStyle}>
-                <h2 className="is-size-5 has-text-weight-bold ">Learning Disabilities</h2><br />
-                {content.disability}
-              </div>
-              <div style={contentBlock}>
-                <h2 className="is-size-5 has-text-weight-bold ">Our Vision</h2><br />
-                {content.vision}<br /><br />
-                {content.target}
-              </div>
-              <div style={contentBlock}>
-                <h2 className="is-size-5 has-text-weight-bold ">Current Programs</h2><br />
-                {content.program}
+              <div>
+                <MemberContainer />
               </div>
           </div>
         </div>
@@ -68,19 +50,19 @@ export const AboutPageTemplate = ({ title, content, contentComponent}) => {
   )
 }
 
-AboutPageTemplate.propTypes = {
+MemberPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.object,
   contentComponent: PropTypes.func,
   disability: PropTypes.string,
 }
 
-const AboutPage = ({ data }) => {
+const MemberPage = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
     <Layout>
-      <AboutPageTemplate
+      <MemberPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         content={post.frontmatter}
@@ -89,14 +71,14 @@ const AboutPage = ({ data }) => {
   )
 }
 
-AboutPage.propTypes = {
+MemberPage.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-export default AboutPage
+export default MemberPage
 
-export const aboutPageQuery = graphql`
-  query AboutPage($id: String!) {
+export const memberPageQuery = graphql`
+  query MemberPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
