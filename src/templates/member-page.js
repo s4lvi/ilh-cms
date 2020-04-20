@@ -3,7 +3,9 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
-import MemberContainer from '../components/MemberContainer'
+import pamelahines from '../img/pamelahines.jpg';
+import blankprofile from '../img/blankProfile.png';
+import { MemberBio } from '../components/MemberBio';
 
 const disabilityBlurbStyle = {
   width: "40%",
@@ -41,7 +43,12 @@ export const MemberPageTemplate = ({ title, content, contentComponent}) => {
                 {title}
               </h2>
               <div>
-                <MemberContainer />
+                    <MemberBio name='Ruth Shortie' biopic={blankprofile} bio={''} />
+                    <MemberBio name='Chantal Moore' biopic={blankprofile} bio={''} />
+                    <MemberBio name='Pamela Hines' biopic={pamelahines} bio={''} />
+                    <MemberBio name='Tyrone Anderson' biopic={blankprofile} bio={''} />
+                    <MemberBio name='Kristal Anderson' biopic={blankprofile} bio={''} />
+                    <MemberBio name='Michael Choney' biopic={blankprofile} bio={''} />
               </div>
           </div>
         </div>

@@ -8,7 +8,6 @@ import twitter from '../img/social/twitter.svg'
 import vimeo from '../img/social/vimeo.svg'
 
 const style={
-  position: "fixed",
   width: "100%",
   bottom: "0",
   height: "160px"
