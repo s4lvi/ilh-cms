@@ -43,12 +43,14 @@ export const MemberPageTemplate = ({ title, content, contentComponent}) => {
                 {title}
               </h2>
               <div>
-                    <MemberBio name='Ruth Shortie' biopic={blankprofile} bio={''} />
-                    <MemberBio name='Chantal Moore' biopic={blankprofile} bio={''} />
-                    <MemberBio name='Pamela Hines' biopic={pamelahines} bio={''} />
-                    <MemberBio name='Tyrone Anderson' biopic={blankprofile} bio={''} />
-                    <MemberBio name='Kristal Anderson' biopic={blankprofile} bio={''} />
-                    <MemberBio name='Michael Choney' biopic={blankprofile} bio={''} />
+                    <MemberBio name='Ruth Shortie' biopic={blankprofile} bio={content.ruth} />
+                    <MemberBio name='Beverly Rugley' biopic={blankprofile} bio = {content.beverly} />
+                    <MemberBio name='Collin McDonough' biopic={blankprofile} bio = {content.collin} />
+                    <MemberBio name='Chantal Moore' biopic={blankprofile} bio={content.chantal} />
+                    <MemberBio name='Pamela Hines' biopic={pamelahines} bio={content.pamela} />
+                    <MemberBio name='Tyrone Anderson' biopic={blankprofile} bio={content.tyrone} />
+                    <MemberBio name='Kristal Anderson' biopic={blankprofile} bio={content.kristal} />
+                    <MemberBio name='Michael Choney' biopic={blankprofile} bio={content.michael} />
               </div>
           </div>
         </div>
@@ -90,12 +92,14 @@ export const memberPageQuery = graphql`
       html
       frontmatter {
         title
-        description
-        disability
-        mission
-        vision
-        program
-        target
+        ruth
+        chantal
+        pamela
+        beverly
+        collin
+        tyrone
+        kristal
+        michael
       }
     }
   }
