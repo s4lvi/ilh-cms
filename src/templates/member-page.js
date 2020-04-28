@@ -3,22 +3,14 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+
 import pamelahines from '../img/pamelahines.jpg';
+import beverlyrugley from '../img/beverlyrugley.jpg';
+import colin from '../img/colin.jpg';
+import ruth from '../img/ruth.jpg';
+
 import blankprofile from '../img/blankProfile.png';
 import { MemberBio } from '../components/MemberBio';
-
-const disabilityBlurbStyle = {
-  width: "40%",
-  minWidth: "300px",
-  float: "right",
-  backgroundColor: "#D64000",
-  borderRadius: "16px",
-  border: "6px solid #e65010",
-  padding: "18px 24px 18px 24px",
-  color: "white",
-  fontSize: "80%",
-  margin: "10px"
-}
 
 const contentStyle = {
   flexDirection: "column",
@@ -43,9 +35,9 @@ export const MemberPageTemplate = ({ title, content, contentComponent}) => {
                 {title}
               </h2>
               <div>
-                    <MemberBio name='Ruth Shortie' biopic={blankprofile} bio={content.ruth} />
-                    <MemberBio name='Beverly Rugley' biopic={blankprofile} bio = {content.beverly} />
-                    <MemberBio name='Collin McDonough' biopic={blankprofile} bio = {content.collin} />
+                    <MemberBio name='Ruth Shortie' biopic={ruth} bio={content.ruth} />
+                    <MemberBio name='Beverly Rugley' biopic={beverlyrugley} bio = {content.beverly} />
+                    <MemberBio name='Collin McDonough' biopic={colin} bio = {content.collin} />
                     <MemberBio name='Chantal Moore' biopic={blankprofile} bio={content.chantal} />
                     <MemberBio name='Pamela Hines' biopic={pamelahines} bio={content.pamela} />
                     <MemberBio name='Tyrone Anderson' biopic={blankprofile} bio={content.tyrone} />
