@@ -5,7 +5,7 @@ import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 
 import pamelahines from '../img/pamelahines.jpg';
-import beverlyrugley from '../img/beverlyrugley.jpg';
+import beverlyrugley from '../img/beverly.png';
 import colin from '../img/colin.jpg';
 import ruth from '../img/ruth.jpg';
 
@@ -40,7 +40,6 @@ export const MemberPageTemplate = ({ title, content, contentComponent}) => {
                     <MemberBio name='Collin McDonough' biopic={colin} bio = {content.collin} />
                     <MemberBio name='Chantal Moore' biopic={blankprofile} bio={content.chantal} />
                     <MemberBio name='Pamela Hines' biopic={pamelahines} bio={content.pamela} />
-                    <MemberBio name='Tyrone Anderson' biopic={blankprofile} bio={content.tyrone} />
                     <MemberBio name='Kristal Anderson' biopic={blankprofile} bio={content.kristal} />
               </div>
           </div>
@@ -88,7 +87,6 @@ export const memberPageQuery = graphql`
         pamela
         beverly
         collin
-        tyrone
         kristal
       }
     }
