@@ -41,7 +41,6 @@ export const MemberPageTemplate = ({ title, content, contentComponent}) => {
                     <MemberBio name='Chantal Moore' biopic={blankprofile} bio={content.chantal} />
                     <MemberBio name='Pamela Hines' biopic={pamelahines} bio={content.pamela} />
                     <MemberBio name='Kristal Anderson' biopic={blankprofile} bio={content.kristal} />
-                    <MemberBio name='Michael Choney' biopic={blankprofile} bio={content.michael} />
               </div>
           </div>
         </div>
@@ -89,7 +88,6 @@ export const memberPageQuery = graphql`
         beverly
         collin
         kristal
-        michael
       }
     }
   }
